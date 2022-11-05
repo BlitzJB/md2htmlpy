@@ -1,0 +1,22 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md2htmlpy"
+version = "1.0.0"
+description = "Convert MD to HTML with full control over generated elements"
+readme = "README.md"
+authors = [{ name = "BlitzJB", email = "blitz04.dev@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["markdown", "html", "markdowntohtml"]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/blitzjb/md2htmlpy"
